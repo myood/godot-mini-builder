@@ -9,7 +9,7 @@ cd godot-${GODOT_VERSION}-${GODOT_RELEASE}
 scons -j8 platform=server tools=no target=release bits=64 \
     --config=force \
     progress=yes \
-    verbose=yes \
+    verbose=no \
     deprecated=no \
     minizip=no \
     xaudio2=no \
