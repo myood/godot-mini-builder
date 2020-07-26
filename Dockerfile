@@ -14,9 +14,10 @@ ENV CMAKE_VERSION 3.6.4111459
 
 RUN chmod +x /root/install_build_dependencies.sh \
   && /root/install_build_dependencies.sh \
-  && chmod +x /root/compile_godot.sh \
-  && /root//compile_godot.sh \
   && chmod +x /root/install_sdk_ndk.sh \
-  && /root/install_sdk_ndk.sh \
-  && chmod +x /root/compile_android_templates.sh \
-  && /root/compile_android_templates.sh
+  && /root/install_sdk_ndk.sh
+  
+# RUN && chmod +x /root/compile_godot.sh \
+#  && /root//compile_godot.sh \
+#  && chmod +x /root/compile_android_templates.sh \
+#  && /root/compile_android_templates.sh
