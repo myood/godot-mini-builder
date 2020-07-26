@@ -3,8 +3,6 @@
 set -e
 set -x
 
-wget https://github.com/godotengine/godot/archive/${GODOT_VERSION}-${GODOT_RELEASE}.zip
-unzip -qq ${GODOT_VERSION}-${GODOT_RELEASE}.zip
 cd godot-${GODOT_VERSION}-${GODOT_RELEASE}
 scons -j8 platform=server tools=no target=release bits=64 \
     --config=force \
