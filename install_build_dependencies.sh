@@ -47,5 +47,6 @@ apt install -y --no-install-recommends \
     libvorbis-dev \
     libpcre2-dev
 
+cd /root
 wget https://github.com/godotengine/godot/archive/${GODOT_VERSION}-${GODOT_RELEASE}.zip
 unzip -qq ${GODOT_VERSION}-${GODOT_RELEASE}.zip
