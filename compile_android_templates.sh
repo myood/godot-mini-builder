@@ -7,7 +7,7 @@ function compile() {
     scons -j8 platform=android target=release android_arch=$1 \
     --config=force \
     progress=yes \
-    verbose=yes \
+    verbose=no \
     deprecated=no \
     minizip=no \
     xaudio2=no \
